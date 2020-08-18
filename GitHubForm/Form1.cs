@@ -12,6 +12,9 @@ namespace GitHubForm
 {
     public partial class Form1 : Form
     {
+
+        string[,] map;
+
         public Form1()
         {
             InitializeComponent();
@@ -19,7 +22,33 @@ namespace GitHubForm
 
         private void btnSux_Click(object sender, EventArgs e)
         {
-            label1.Text = "Memes";
+            map = new string[10, 10];
+            initialiseMap();
+            redraw();
+
+        }
+
+        private void initialiseMap()
+        {
+            for (int k = 0; k < 10; k++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    map[k, j] = " . ";
+                }
+            }
+        }
+
+        private void redraw()
+        {
+            for (int k = 0; k < 10; k++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    lblMap.Text += map[k, j];
+                }
+                lblMap.Text += "\n";
+            }
         }
     }
 }
