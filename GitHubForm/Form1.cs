@@ -16,5 +16,10 @@ namespace GitHubForm
         {
             InitializeComponent();
         }
+
+        private void btnSux_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Memes";
+        }
     }
 }
