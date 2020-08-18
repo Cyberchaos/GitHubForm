@@ -34,7 +34,7 @@
             // 
             // btnSux
             // 
-            this.btnSux.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSux.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSux.Location = new System.Drawing.Point(201, 267);
             this.btnSux.Name = "btnSux";
             this.btnSux.Size = new System.Drawing.Size(319, 117);
@@ -46,9 +46,10 @@
             // lblMap
             // 
             this.lblMap.AutoSize = true;
+            this.lblMap.Font = new System.Drawing.Font("Courier New", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMap.Location = new System.Drawing.Point(230, 80);
             this.lblMap.Name = "lblMap";
-            this.lblMap.Size = new System.Drawing.Size(0, 9);
+            this.lblMap.Size = new System.Drawing.Size(0, 11);
             this.lblMap.TabIndex = 1;
             // 
             // Form1

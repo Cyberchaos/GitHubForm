@@ -30,11 +30,13 @@ namespace GitHubForm
 
         private void initialiseMap()
         {
+            Random r = new Random();
+
             for (int k = 0; k < 10; k++)
             {
                 for (int j = 0; j < 10; j++)
                 {
-                    map[k, j] = " . ";
+                    map[k, j] = " " + Convert.ToChar(r.Next(66, 91)) + " ";
                 }
             }
         }
