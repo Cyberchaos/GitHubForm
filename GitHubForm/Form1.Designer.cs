@@ -38,7 +38,7 @@
             // btnSux
             // 
             this.btnSux.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSux.Location = new System.Drawing.Point(107, 159);
+            this.btnSux.Location = new System.Drawing.Point(210, 196);
             this.btnSux.Name = "btnSux";
             this.btnSux.Size = new System.Drawing.Size(319, 117);
             this.btnSux.TabIndex = 0;
@@ -57,7 +57,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(532, 100);
+            this.button1.Location = new System.Drawing.Point(62, 356);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 2;
@@ -66,7 +66,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(76, 100);
+            this.button2.Location = new System.Drawing.Point(325, 356);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 3;
@@ -75,7 +75,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(652, 283);
+            this.button3.Location = new System.Drawing.Point(591, 337);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(53, 60);
             this.button3.TabIndex = 4;
